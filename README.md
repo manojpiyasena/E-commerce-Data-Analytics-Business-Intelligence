@@ -1,4 +1,9 @@
 # E-commerce-Data-Analytics-Business-Intelligence
+
+Project title: End-to-End E-commerce Data Analytics and Business Intelligence
+
+(SQL) (Power BI) (Power Query) (DAX) (Generative AI) (Azure SQL) (Excel)
+
 This project demonstrates an end-to-end data analytics workflow developed as part of the Mission X learning programme. It brings together SQL-based data preparation, Generative AI applications, and Power BI reporting to explore business data and communicate data-driven insights.
 
 # Mission X – End-to-End E-commerce Data Analytics
