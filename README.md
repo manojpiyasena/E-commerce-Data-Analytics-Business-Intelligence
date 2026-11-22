@@ -1,119 +1,106 @@
 # E-commerce-Data-Analytics-Business-Intelligence
 This project demonstrates an end-to-end data analytics workflow developed as part of the Mission X learning programme. It brings together SQL-based data preparation, Generative AI applications, and Power BI reporting to explore business data and communicate data-driven insights.
-The project covers three stages:
 
-Mission 4 – SQL Data Analytics and ETL: Data cleaning, transformation, merging, descriptive analysis, and SQL window functions using datasets from the Mission 4 case study.
+# Mission X – End-to-End E-commerce Data Analytics
 
-Mission 5 – Generative AI: Using AI tools to support review summarisation, SQL generation, data merging, and analytical report preparation. This was an individual learning activity.
+## Project Overview
 
-Mission X – Power BI Data Visualisation: Working collaboratively as a team to prepare, model, analyse, and visualise online retail sales data, including a relevant secondary dataset.
+Mission X is a collaborative data analytics and business intelligence project focused on analysing an international fictional e-commerce retailer.
 
-Project Objectives
-Prepare and clean datasets for reliable analysis.
-Combine relevant datasets to support business questions.
-Apply SQL techniques to explore patterns and rankings.
-Evaluate how Generative AI can support data preparation and reporting.
-Build an interactive Power BI report to communicate business performance.
-Present findings and recommendations using data visualisation and storytelling.
-Develop technical, communication, collaboration, and problem-solving skills.
+The project demonstrates an end-to-end analytics workflow involving data extraction, transformation, cleaning, SQL analysis, Generative AI integration and interactive data visualisation using Power BI.
 
-Technology Stack
+The objective is to transform raw transactional and product-related data into meaningful business insights that support data-driven decision-making.
 
-Technology         Application
-SQL                Data cleaning, transformation, merging, and analysis
-Azure SQL          Source database for the online retail dataset
-Power BI           Interactive dashboards and data visualisation
-Power Query        Data preparation and transformation
-DAX                Calculated columns, measures, and time intelligence
-Generative AI      Review summarisation, SQL assistance, and report generation
-GitHub             Project documentation and portfolio presentation
+## Project Objectives
 
-Project Structure
+- Clean, transform and integrate multiple datasets.
+- Apply SQL techniques for data analysis and reporting.
+- Explore Generative AI for automated data processing and analytical reporting.
+- Develop an interactive Power BI dashboard.
+- Identify sales trends, product performance and geographical patterns.
+- Analyse year-to-date performance and forecast future sales.
+- Develop actionable business recommendations.
 
-01 – Mission 4: SQL Data Analytics and ETL
-This milestone focused on building a SQL data analytics pipeline using datasets from the Mission 4 case study.
+## Technology Stack
 
-Activities included:
-Cleaning data by addressing duplicates, missing values, and inconsistent formats.
-Merging datasets related to sales, revenue, and reviews.
-Performing descriptive analysis to identify trends.
-Applying SQL window functions to rank games by revenue and reviews.
-Preparing an analysis report with findings and recommendations.
-Project files: 01_Mission_4_SQL_ETL/
+- SQL – Data cleaning, transformation, joins and window functions.
+- Azure SQL – Cloud database connectivity.
+- Power BI – Interactive dashboards and reporting.
+- Power Query – Data preparation and transformation.
+- DAX – Calculated measures and time intelligence.
+- Generative AI – SQL generation, review summarisation and reporting.
+- Excel – Supporting data analysis.
 
-02 – Mission 5: Generative AI
+## Project Milestones
 
-This individual milestone explored how Generative AI could support data analytics tasks using the Mission 4 case study.
+### Milestone 1: SQL and ETL – Mission 4
 
-Activities included:
+Performed data cleaning, standardisation, merging and SQL-based analysis across three e-commerce datasets.
 
-Summarising game reviews using Generative AI.
-Generating SQL statements to support data cleaning.
-Using AI assistance to develop SQL for merging datasets.
-Generating an analytical report from merged data.
-Reflecting on the benefits, limitations, and responsible use of AI-generated outputs.
-AI-generated SQL and analysis should be reviewed and validated before being used.
-Project files: 02_Mission_5_Generative_AI/
+Key activities:
+- Removing duplicates and handling missing values.
+- Standardising inconsistent data categories.
+- Integrating datasets.
+- Applying SQL joins and window functions.
+- Ranking products by revenue and reviews.
+- Producing analytical findings and recommendations.
 
-03 – Mission X: Power BI Data Visualisation
+### Milestone 2: Generative AI – Mission 5
 
-This collaborative team milestone focused on an online retail dataset stored in Azure SQL.
-The project involved preparing data, developing a data model, creating calculations, and building an interactive Power BI report.
+Explored the application of Generative AI in data analytics workflows.
 
-Key activities included:
+Key activities:
+- Summarising customer game reviews.
+- Generating SQL statements for data cleaning.
+- Automating SQL data merging.
+- Generating analytical reports using AI.
+- Evaluating AI outputs and documenting lessons learned.
 
-Connecting Power BI to the online retail SQL database.
-Loading Sales, Invoice, and Product tables.
-Using Power Query to clean and standardise data, including country values.
-Developing relationships between the Sales fact table and Invoice and Product dimension tables.
-Calculating sales using quantity multiplied by unit price.
-Creating a Total Sales measure.
-Analysing sales over time, product categories, top-selling products, and country-level customer information.
+### Milestone 3: Power BI Data Visualisation – Mission X
 
-Applying DAX time intelligence to examine year-to-date sales and previous-year comparisons.
-Creating a 90-day daily sales forecast.
-Incorporating a relevant secondary e-commerce dataset.
-Using report navigation, bookmarks, and slicers to support interactive storytelling.
-Project files: 03_Mission_X_Power_BI/
+Developed an interactive business intelligence report using an online retail dataset stored in Azure SQL.
 
-Business Questions
+Key activities:
+- Connecting Power BI to Azure SQL.
+- Cleaning and transforming data using Power Query.
+- Creating fact and dimension table relationships.
+- Calculating sales revenue using DAX.
+- Analysing sales trends, products, categories and countries.
+- Developing Year-to-Date and previous-year comparisons.
+- Creating a 90-day sales forecast.
+- Using bookmarks, slicers and interactive visualisations.
 
-The analysis was designed to explore questions such as:
+## Key Business Questions
 
-How does sales performance change over time?
-Which product categories contribute most to sales?
-Which products generate the highest sales?
-Which countries have the highest customer counts?
-How do current year-to-date sales compare with the previous year?
-What sales trends may be indicated by the 90-day forecast?
-How can additional e-commerce data provide broader context for the findings?
+- How are sales performing over time?
+- Which product categories generate the highest revenue?
+- Which products contribute most to sales?
+- Which countries have the highest customer representation?
+- How does current YTD performance compare with the previous year?
+- What sales trends can be identified in the 90-day forecast?
 
-Project Deliverables
+## Business Value
 
-The repository contains the project materials available for portfolio presentation:
-SQL scripts.
-Generative AI prompts and outputs.
-Power BI dashboard file.
-Power BI visualisation screenshots.
-Final project report.
-Project reflection documentation.
-Team Collaboration and My Learning
-Mission X was completed as a team project. The final Power BI milestone involved collaborative work across data preparation, modelling, analysis, visualisation, and reporting.
+The project demonstrates how SQL, Generative AI and Business Intelligence tools can be combined to transform raw e-commerce data into actionable insights.
 
-The Mission 5 Generative AI milestone was an individual learning activity.
+The resulting analysis can support sales performance monitoring, product strategy, geographical market analysis and business planning.
 
-Through this project, I developed my understanding of how data analytics tools can be applied together to support business decision-making. I also strengthened my experience in SQL, Power BI, data visualisation, Generative AI, documentation, and collaborative problem-solving.
+## Project Deliverables
 
-Responsible Data Use
-This repository is intended for learning and portfolio demonstration.
-No database passwords, access keys, or private connection details should be published.
-Confidential or personally identifiable information should not be included.
-Dataset files should only be shared where redistribution is permitted.
-AI-generated SQL and insights should be checked for accuracy.
-Third-party datasets should be credited and their usage conditions respected.
+- SQL scripts and analytical queries.
+- Generative AI prompts and outputs.
+- Power BI interactive dashboard.
+- Visualisations and supporting analysis.
+- Final project report and recommendations.
+- Individual project reflection.
 
-Author
+## Learning Outcomes
+
+This project strengthened practical skills in data preparation, SQL analysis, AI-assisted workflows, business intelligence, data visualisation, collaboration and analytical problem-solving.
+
+## Author
+
 Manoj Piyasena
-Aspiring Data Analyst | Business Intelligence | SQL | Power BI | Python | Generative AI
 
+Aspiring Data Analyst | Business Intelligence | SQL | Python | Power BI | AI
 Christchurch, New Zealand
